@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wetheria</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="weather-main"  id="weather-main"> 
+        
+        <p class="greeting" id="greeting">Good Morning 🌞</p>
+        <div class="weather-data" id="weatherData" style="color: black;">
+            <h1 class="weather-data-element" id="city-name">Kolkata</h1>
+            <h2 class="weather-data-element" id="temp">26.25</h2>
+            <h1 class="weather-data-element" id="weather-condition">
+                sunny
+                <img id="desc-img" src="https://openweathermap.org/img/wn/10d@2x.png" alt="">
+            </h1>
+            
+        </div>
+        <div class="search">
+            <input  id="dataInput" placeholder="Name of the city">
+            <button id="sendButton" class="sendButton">
+                <img src="assets/search.png" height="15px" width="15px">
+            </button>
+        </div>  
+        </div>
+        <script type="module" src="./index.js"></script>
+</body>
+</html>

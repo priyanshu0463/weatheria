@@ -1,0 +1,16 @@
+{
+
+  "type": "module",
+
+  "dependencies": {
+
+    "node-fetch": "^3.3.2",
+
+    "package.json": "^2.0.1",
+
+    "require": "^2.4.20"
+
+  }
+
+}
+
